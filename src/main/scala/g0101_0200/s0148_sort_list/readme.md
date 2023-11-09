@@ -41,6 +41,13 @@ Given the `head` of a linked list, return _the list after sorting it in **ascend
 ```scala
 import com_github_leetcode.ListNode
 
+/*
+ * Definition for singly-linked list.
+ * class ListNode(_x: Int = 0, _next: ListNode = null) {
+ *   var next: ListNode = _next
+ *   var x: Int = _x
+ * }
+ */
 object Solution {
     def sortList(head: ListNode): ListNode = {
         if (head == null || head.next == null) {

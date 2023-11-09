@@ -36,6 +36,14 @@ Given the `root` of a binary search tree, and an integer `k`, return _the_ <code
 ```scala
 import com_github_leetcode.TreeNode
 
+/*
+ * Definition for a binary tree node.
+ * class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null) {
+ *   var value: Int = _value
+ *   var left: TreeNode = _left
+ *   var right: TreeNode = _right
+ * }
+ */
 object Solution {
     var index = 0
     var value = -1
