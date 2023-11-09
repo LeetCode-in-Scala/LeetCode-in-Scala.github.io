@@ -35,7 +35,7 @@ Return `true` _if you can reach the last index, or_ `false` _otherwise_.
 ```scala
 object Solution {
     def canJump(nums: Array[Int]): Boolean = {
-        var sz = nums.length
+        val sz = nums.length
         // We set tmp to 1 so it won't break on the first iteration
         var tmp = 1
 
