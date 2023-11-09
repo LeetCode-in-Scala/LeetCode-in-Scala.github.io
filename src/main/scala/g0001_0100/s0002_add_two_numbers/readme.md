@@ -42,7 +42,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 ```scala
 import com_github_leetcode.ListNode
 
-
 /*
  * Definition for singly-linked list.
  * class ListNode(_x: Int = 0, _next: ListNode = null) {
